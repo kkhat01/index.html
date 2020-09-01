@@ -18,32 +18,26 @@ header{
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;}
-.main-nav li.active a
-{
+.main-nav li.active a{
     border: 1px solid white;
 }
-.main-nav li a:hover
-{
+.main-nav li a:hover{
     border: 1px solid white;
 }
-body
-{
+body{
     font-family: monospace;
 }
-.row
-{
+.row{
     max-width: 1200px;
     margin:auto;
 }
-.hero
-{
+.hero{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-h1
-{
+h1{
     color: white;
     text-transform: uppercase;
     font-size: 70px;
