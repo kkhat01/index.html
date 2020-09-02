@@ -17,10 +17,10 @@ body{
     font-family: "Roboto", sans-serif;
     font-size: 15px;}
 .main-nav li.active a{
-    border: 1px solid white;
+    border: 1px solid lightblue;
 }
 .main-nav li a:hover{
-    border: 1px solid white;
+    border: 1px solid lightblue;
 }
 body{
     font-family: monospace;
@@ -38,7 +38,13 @@ body{
 h1{
     color: white;
     text-transform: uppercase;
-    font-size: 70px;
-    text-align: center;
+    font-size: 150px;
+    text-align: top;
+    margin-top: 275px;
+}
+p{
+    color: white;
+    font-size: 50px;
+    text-align: top;
     margin-top: 275px;
 }
