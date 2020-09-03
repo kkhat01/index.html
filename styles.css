@@ -1,46 +1,46 @@
 *{
     margin: 0;
-    padding: 0;}
-header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://lh3.googleusercontent.com/nLj-Y3qXfi4lyt8RUMVGel7u2Hv8R6xGTKEPaJYo5MpOw4cFzicMjNWl0PATZ3-V6Sn-DvN43Pb4aVRuwsQnPKyHqru5B5Rco2XmULaN0EPy4jbdVDHKIAlDFRyBFv3OG3Ofv_WTXVtWXjlPS8-MB41-Dw8CcitSVPusNXQCW7aAKokFlyHkMJrh1vUUvCUMwsYjHvmoQbtE6siPHGDcLRTFtbXv40wNaT6oUBY-n3V49gzlIV6CTsciflD72OQgPK8jTQkKzhUr5Pkn0FrEpB9q_7UR0iROxpN4ipi2omBMaLtMa-t6h5_2xNEpeKXAI6f1nXMUqjx7Ws_tuqP_Ufpt6HDvSCEI-5feAYoMMCpYZZmrUTVrZjKmzl23PdEmq6Lg3VrEs0fOrndEmWHroizQ4Wy9rsR_z6VxmdxwVz4tj03zWWAj82qYot69RYxhEcAW3oE4iGWwVuwjWsnX1HhV_JgKCcjBl2m-nhXA55nWioc42c5PmM1H_rC8nYoeyqaw1VlTeBMvPRAVrDMo_VKJ4uwBCdUwQPxIjEQGJ8Y1y8w8sMKsTZAWHqO359YOiHMruDtxD2rYHTKARTm7T3JIfoo_dC-uY6p4EfkBd1pWcoNLIkg-Vy4Zb7eb2xaKmxygDbrNuatp5GClDPq94RwZhN42jGQpr77MHFOdLEIyfE4FQomLU22JJqIqHA=w958-h639-no?authuser=0);
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("IMG_7.jpg");
     height: 100vh;
     background-size: cover;
-    background-position: center;}
+    background-position: center;
+}
 .main-nav{
     float: right;
     list-style: none;
     margin-top: 30px;}
 .main-nav li{
-    display: inline-block;}
+    display: inline-block;
+}
 .main-nav li a{
     color:white;
     text-decoration: none;
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;}
+    font-size: 15px;
+}
 .main-nav li.active a{
     border: 1px solid lightblue;
 }
 .main-nav li a:hover{
     border: 1px solid lightblue;
 }
-body{
-    font-family: monospace;
-}
 .row{
     max-width: 1200px;
     margin:auto;
 }
-.hero{
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 275px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
-h1{
-    color: white;
-    text-transform: uppercase;
-    font-size: 70px;
-    text-align: center;
-    margin-top: 275px;
+    font-family: monospace;
 }
